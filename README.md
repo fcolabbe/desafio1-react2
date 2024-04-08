@@ -21,13 +21,13 @@ Happy Cake es una aplicación web desarrollada con React y Vite. La aplicación 
 1. Clona el repositorio:
 
 ```
-git clone https://github.com/tu-usuario/happy-cake.git
+git clone git@github.com:fcolabbe/desafio1-react2.git
 ```
 
 2. Instala las dependencias:
 
 ```
-cd happy-cake
+cd desafio1-react2
 npm install
 ```
 
@@ -40,7 +40,7 @@ npm run dev
 ## Estructura del proyecto
 
 ```
-happy-cake/
+desafio1-react2/
 ├── src/
 │   ├── components/
 │   │   └── Navbar.jsx
