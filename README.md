@@ -43,11 +43,13 @@ npm run dev
 happy-cake/
 ├── src/
 │   ├── components/
-│   │   └── Navbar.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   └── Contact.js
-│   ├── App.js
+│   │   └── Navbar.jsx
+│   ├── views/
+│   │   ├── Home.jsx
+│   │   └── Contacto.jsx
+│   │   └── NotFound.jsx
+│   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
 ├── .gitignore
 ├── package.json
