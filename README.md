@@ -1,8 +1,64 @@
-# React + Vite
+# Happy Cake
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Happy Cake es una aplicación web desarrollada con React y Vite. La aplicación permite a los usuarios navegar a través de dos vistas: Home y Contacto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+
+- Instalación de React Router
+- Creación de un componente Navbar con enlaces de navegación
+- Creación de un enrutador con las rutas correspondientes a las vistas Home y Contacto
+
+## Tecnologías utilizadas
+
+- React
+- Vite
+- React Router
+
+## Instrucciones de instalación
+
+1. Clona el repositorio:
+
+```
+git clone https://github.com/tu-usuario/happy-cake.git
+```
+
+2. Instala las dependencias:
+
+```
+cd happy-cake
+npm install
+```
+
+3. Inicia la aplicación:
+
+```
+npm run dev
+```
+
+## Estructura del proyecto
+
+```
+happy-cake/
+├── src/
+│   ├── components/
+│   │   └── Navbar.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   └── Contact.js
+│   ├── App.js
+│   └── main.jsx
+├── .gitignore
+├── package.json
+├── index.html
+└── README.md
+```
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, puedes abrir un issue o enviar un pull request.
+
+## Autor
+
+Este proyecto fue desarrollado por Francisco Labbe como parte del desafío de Desafío Latam.
